@@ -1,0 +1,102 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	
+
+}
+.mario{
+	color: white;
+	border: 9px solid white;
+	border-radius: 40%;
+	width: 16%;
+	padding: 8px;
+}
+header{
+	padding: 12px;
+	font-family: cursive;
+}
+.menu {
+  display: flex;
+  flex-wrap: nowrap;
+  
+}
+
+.menu > div {
+  background-color: whitesmoke;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+}
+.menu > div:hover{
+	color: red;
+	cursor: pointer;
+}
+.hu{
+	font-size: 2.8em;
+	animation-name: name1;
+	animation-duration: 1s;
+	animation-iteration-count: 1000;
+}
+.menu2 {
+  display: flex;
+  flex-wrap: nowrap;
+  animation-name: hussain;
+  animation-duration: 3s;
+  animation-iteration-count: 60;
+  
+}
+input{
+	padding: 8px;
+}
+button{
+	padding: 12px;
+	background-color: transparent;
+	animation-name: hussain1;
+	 animation-duration: 3s;
+  animation-iteration-count: 60;
+  color: white;
+}
+button:hover{
+	color: white;
+}
+@keyframes hussain{
+	10%{color: red;}
+	20%{color: blue;}
+	30%{color: orange;}
+	40%{color: purple;}
+	50%{color: blue;}
+	60%{color: black;}
+	70%{color: green;}
+}
+@keyframes hussain1{
+	10%{background-color: red;}
+	20%{background-color: blue;}
+	30%{background-color: orange;}
+	40%{background-color: purple;}
+	50%{background-color: blue;}
+	60%{background-color: black;}
+	70%{background-color: green;}
+}
+@keyframes name1{
+	10%{color: green;}
+	20%{color: black;}
+	30%{color: blue;}
+	40%{color: purple;}
+	50%{color: red;}
+	60%{color: pink;}
+	70%{color: orange;}
+}
+.menu2 > div {
+  
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+}
+.menu2 > div:hover{
+	color: red;
+	cursor: pointer;
+}
